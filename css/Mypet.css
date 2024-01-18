@@ -34,7 +34,7 @@ nav {
 }
 
 .menu {
-    border: 3px ;
+    border: 3px auto ;
     list-style: none;
 }
 
