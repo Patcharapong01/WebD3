@@ -1,68 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+html,body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    /* background-color: aquamarine; */
 }
-/* --------------start header------------- */
+/*-----------------start header---------------*/
 header{
     background-color: #286C6C;
 }
 nav{
-    color: #ffffff;
+    color: white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
     width: 1100px;
     height: 48px;
     margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+    /*background-color: rgb(19, 139, 243);*/
 }
 .logo{
     text-transform: uppercase;
     font-size: 24px;
 }
 .menu{
-    list-style: none;
     display: flex;
-    text-transform: capitalize;
+    
 }
 li{
+    list-style: none;
     margin-right: 20px;
 }
 a{
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Lato', sans-serif;
+}
 
-/* ---------------------start hero section------------------- */
 .hero{
-    display: flex;
     width: 1100px;
     margin: auto;
-    
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: #f80000; */
+    display: flex;
+   background-color: #286C6C;
+   align-items: center;
+   justify-content: space-between;
+
 }
+
 .herotextbox{
-    color: #ffffff;
-    /* background: #daadad; */
+    color: #fff;
+
+    
 }
 .herobutton{
     display: flex;
+
 }
-.herobtgetstarted{
-    background-color: #a9e6e6;
-    padding: 8 20px;
+.herobtgetstarted {
+    background-color: blue;
+    padding: 4px 20px;
     border-radius: 30px;
-    margin-right: 30px;
+    margin-right:20px;
 }
 .herobtwatch{
     display: flex;
+    align-items: center;
 }
 .heroimage{
-
+    
 }
